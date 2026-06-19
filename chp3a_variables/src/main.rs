@@ -17,4 +17,11 @@ fn main() {
     }
 
     println!("The value of new x is: {x}");
+
+    const Z: i32 = 1;
+    println!("The value of Z is: {Z}");
+
+    // shadowing const is not allowed:
+    // const Z: i32 = 2;
+    // println!("The value of Z is: {Z}");
 }
