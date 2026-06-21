@@ -1,7 +1,11 @@
 fn main() {
-
+    let s = &String::from("hello world");
+    let _s2 = "some text";
+    let part =first_word(s);
+    println!("{part}")
 }
 
+#[allow(dead_code)]
 fn c4_1_introduction() {
     let s1 = String::from("hello");
 
@@ -16,4 +20,15 @@ fn calculate_length(s: String) -> (String, usize) {
     let length = s.len(); // len() returns the length of a String
 
     (s, length)
+}
+fn first_word(s: &String) -> &str {
+    let bytes = s.as_bytes();
+
+    for (i, &item) in bytes.iter().enumerate() {
+        if item == b' ' {
+            return &s[..i];
+        }
+    }
+
+    &s[..]
 }
