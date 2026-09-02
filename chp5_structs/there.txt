@@ -1,0 +1,2 @@
+next: 5.2:
+file:///Users/fvdmiv7/.rustup/toolchains/stable-aarch64-apple-darwin/share/doc/rust/html/book/ch05-02-example-structs.html#refactoring-with-structs
