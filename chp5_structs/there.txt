@@ -1,2 +1,4 @@
-next: 5.3 Methods:
-file:///Users/fvdmiv7/.rustup/toolchains/stable-aarch64-apple-darwin/share/doc/rust/html/book/ch05-03-method-syntax.html
+next: 6 enums:
+file:///Users/fvdmiv7/.rustup/toolchains/stable-aarch64-apple-darwin/share/doc/rust/html/std/option/enum.Option.html
+und dann
+file:///Users/fvdmiv7/.rustup/toolchains/stable-aarch64-apple-darwin/share/doc/rust/html/book/ch06-02-match.html
