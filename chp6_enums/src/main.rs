@@ -1,3 +1,5 @@
+mod matchflow;
+
 #[derive(Debug)]
 enum IpAddr {
     V4(u8, u8, u8, u8),
@@ -9,4 +11,7 @@ fn main() {
     let six = IpAddr::V6(String::from("::1"));
     println!("{:?}", four);
     println!("{:?}", six);
+
+    let coin = matchflow::Coin::Penny;
+    println!("Value in cents: {}", matchflow::value_in_cents(coin));
 }
