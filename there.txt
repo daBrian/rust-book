@@ -1,0 +1,2 @@
+next: 7 Packages, Crates and Modules:
+file:///Users/fvdmiv7/.rustup/toolchains/stable-aarch64-apple-darwin/share/doc/rust/html/book/ch08-00-common-collections.html
